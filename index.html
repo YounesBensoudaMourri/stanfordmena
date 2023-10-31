@@ -3,56 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <title>Stanford MENA Alumni Association</title>
-  <style>
-    /* Stanford Colors */
-    body {
-      background-color: #8C1515; /* Cardinal Red */
-      color: #FFFFFF; /* White */
-      font-family: Arial, sans-serif;
-    }
-    header {
-      background-color: #D2C295; /* Sandstone */
-    }
-    nav ul {
-      list-style-type: none;
-      padding: 0;
-      margin: 0;
-      overflow: hidden;
-    }
-    nav ul li {
-      float: left;
-    }
-    nav ul li a {
-      display: block;
-      padding: 14px 16px;
-      text-align: center;
-      text-decoration: none;
-      color: #8C1515;
-    }
-    /* Background Image */
-    .background-image {
-      background-image: url('stanford_background.jpg'); /* Replace with your Stanford image */
-      background-size: cover;
-      background-position: center;
-      height: 100vh;
-    }
-  </style>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Events</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header>
+        <nav>
+          <ul>
+            <li class="logo">
+                <img src="images/logo.webp" alt="Stanford Logo">
+              </li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
   <div class="background-image">
-    <!-- Content goes here -->
-    <h1>Welcome to the Stanford MENA Alumni Association</h1>
+    <div class="overlay">
+      <h1>Welcome to the Stanford MENA Alumni Association</h1>
+      <p>Connecting Alumni, Deepening Relations, and Fostering Opportunities</p>
+    </div>
   </div>
+  <section class="content">
+    <h2>About Us</h2>
+    <p>The Stanford MENA Alumni Association serves as a bridge between Stanford University and its alumni in the Middle East and North Africa region. Our mission is to strengthen Stanford's brand and deepen its relationship with the MENA community.</p>
+    
+    <h2>Our Objectives</h2>
+    <ul>
+      <li>Connect alumni with venture capitalists and startups.</li>
+      <li>Facilitate recruiting and distribution opportunities.</li>
+      <li>Organize events and activities that enrich our community.</li>
+    </ul>
+  </section>
   <footer>
     <!-- Footer content -->
   </footer>
